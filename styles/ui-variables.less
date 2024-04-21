@@ -1,0 +1,62 @@
+/*
+Include the standard variables from Mailspring's base theme:
+https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-variables.less
+*/
+@import "base/ui-variables";
+
+@gray-base: #ffffff;
+@gray-darker: darken(@gray-base, 13.5%);
+@gray-dark: darken(@gray-base, 20%);
+@gray: darken(@gray-base, 33.5%);
+@gray-light: darken(@gray-base, 46.7%);
+@gray-lighter: darken(@gray-base, 92.5%);
+@white: #0a0a0a;
+
+/* Just uncomment the accent color you want below
+-------------------------------------------------*/
+/* @accent-primary: #387db7; /* Blueberry */
+@accent-primary: #b73838; /* Cherry */
+/* @accent-primary: #82bf3a; /* Lime */
+/* @accent-primary: #bf8e2f; /* Mango */
+/* @accent-primary: #38b7ab; /* Pistachio */
+/* @accent-primary: #6a3cbf; /* Plum */
+
+
+@accent-primary-dark: @accent-primary;
+
+@background-primary: #272727;
+@background-off-primary: @accent-primary;
+@background-secondary: #121212;
+@background-tertiary: #2f2f2f;
+@background-themed: #384252;
+
+@border-color-primary: lighten(@background-primary, 10%);
+@border-color-secondary: lighten(@background-secondary, 10%);
+@border-color-tertiary: lighten(@background-tertiary, 10%);
+@border-color-divider: @border-color-secondary;
+
+@text-color: #eee;
+@text-color-subtle: fadeout(@text-color, 20%);
+@text-color-very-subtle: fadeout(@text-color, 40%);
+@text-color-inverse: white;
+@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
+@text-color-heading: #fff;
+
+@text-color-link: @accent-primary;
+@text-color-link-hover: @accent-primary-dark;
+@text-color-link-active: @accent-primary-dark;
+
+@btn-default-bg-color: lighten(@background-primary, 5%);
+@dropdown-default-bg-color: #404040;
+
+@input-bg: #2f2f2f;
+@input-border: @border-color-divider;
+
+@list-bg: @input-bg;
+@list-border: @background-secondary;
+@list-selected-color: @text-color-inverse;
+@list-focused-color: @text-color-inverse;
+
+@toolbar-background-color: @background-secondary;
+@panel-background-color: @background-secondary;

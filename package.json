@@ -1,0 +1,12 @@
+{
+  "name": "materia-black-colors",
+  "title": "Materia Black Colors",
+  "displayName": "Materia Black Colors",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Based on Materia Black Colors - https://github.com/rtlewis1/GTK/tree/Material-Black-Colors-Desktop",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}

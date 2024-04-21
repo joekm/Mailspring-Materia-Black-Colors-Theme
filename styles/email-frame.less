@@ -1,0 +1,14 @@
+/*
+This little bit of code here is suggested in the Mailspring GitHub page as
+being good to have for "Dark Themes".  It will invert colors where it needs
+to so the text is still readable on some HTML emails.
+*/
+.ignore-in-parent-frame {
+  body {
+    -webkit-filter: invert() hue-rotate(180deg);
+    color: #111;
+  }
+  img {
+    -webkit-filter: invert() hue-rotate(180deg);
+  }
+}
